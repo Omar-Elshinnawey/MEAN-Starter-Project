@@ -1,0 +1,33 @@
+{
+  "name": "angularstarter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^4.0.2",
+    "@angular/compiler": "^4.0.2",
+    "@angular/core": "^4.0.2",
+    "@angular/forms": "^4.0.2",
+    "@angular/http": "^4.0.2",
+    "@angular/platform-browser": "^4.0.2",
+    "@angular/platform-browser-dynamic": "^4.0.2",
+    "@angular/router": "^4.0.2",
+    "@angular/upgrade": "^4.0.2",
+    "core-js": "^2.4.1",
+    "express": "^4.15.2",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.3.0",
+    "zone.js": "^0.8.5"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3"
+  }
+}
